@@ -1,0 +1,107 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700 */
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+body {
+    width: 1440px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    height: 80px;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.logo-box {
+    position: absolute;
+    top: 33px;
+    left: 165px;
+}
+
+.request-invite {
+    position: absolute;
+    width: 163px;
+    height: 44px;
+    top: 18px;
+    left: 1112px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.request-invite:hover {
+    cursor: pointer;
+}
+
+.top-navigation {
+    width: 600px;
+    height: 17px;
+    text-align: center;
+}
+
+.top-nav-list-item{
+    display: inline-block;
+}
+
+.top-nav-list-item + .top-nav-list-item{
+    margin-left: 30px;
+}
+
+.top-nav-link {
+    color: #9597A5;
+    font-weight: 400;
+    font-size: 14px;
+}
